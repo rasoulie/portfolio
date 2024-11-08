@@ -21,6 +21,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -31,4 +35,8 @@ body {
   text-shadow: 4px 4px 0 var(--tw-color-my-yellow),
     6px 6px 0 var(--tw-color-my-yellow), 8px 8px 0 var(--tw-color-my-yellow),
     10px 10px 0 var(--tw-color-my-yellow);
+}
+#Projects {
+  min-height: 100vh; /* Ensure the section takes at least the full height of the viewport */
+  scroll-margin-top: 50px; /* Adjust the offset when the section comes into view */
 }

@@ -12,7 +12,7 @@ export default function Navigation({ onToggleMenu }) {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.8, // Trigger when 60% of section is visible
+      threshold: 0.5, // Trigger when 80% of section is visible
     };
 
     const handleScroll = (entries) => {
@@ -44,8 +44,7 @@ export default function Navigation({ onToggleMenu }) {
   return (
     <nav className="p-0 flex justify-center items-center text-center text-gray-600 h-12">
       <ul className="hidden md:flex space-x-5">
-        <Link href="/">
-          {" "}
+        <Link href="#Home">
           <li
             className={`rounded-full h-12 flex items-center justify-center  hover:text-black transition-colors duration-200 ease-in-out ${
               activeSection === "Home" ? "text-black" : ""
@@ -54,7 +53,7 @@ export default function Navigation({ onToggleMenu }) {
             Home
           </li>
         </Link>
-        <a href="#Projects">
+        <Link href="#Projects">
           <li
             className={`rounded-full h-12 flex items-center justify-center hover:text-black transition-colors duration-200 ease-in-out ${
               activeSection === "Projects" ? "text-black" : ""
@@ -62,8 +61,8 @@ export default function Navigation({ onToggleMenu }) {
           >
             Projects
           </li>
-        </a>
-        <a href="#Services">
+        </Link>
+        <Link href="#Services">
           <li
             className={`rounded-full h-12 flex items-center justify-center hover:text-black transition-colors duration-200 ease-in-out ${
               activeSection === "Services" ? "text-black" : ""
@@ -71,7 +70,7 @@ export default function Navigation({ onToggleMenu }) {
           >
             Services
           </li>
-        </a>
+        </Link>
         <a
           href="https://drive.google.com/file/d/1repQZp3eY8QR3fymuf4GhG1of-BKgzQu/view?usp=sharing"
           target="_blank"
@@ -80,7 +79,7 @@ export default function Navigation({ onToggleMenu }) {
             Resume
           </li>
         </a>
-        <a href="#Contact">
+        <Link href="#Contact">
           <li
             className={`rounded-full h-12 flex items-center justify-center hover:text-black transition-colors duration-200 ease-in-out ${
               activeSection === "Contact" ? "text-black" : ""
@@ -88,8 +87,9 @@ export default function Navigation({ onToggleMenu }) {
           >
             Contact
           </li>
-        </a>
+        </Link>
       </ul>
+
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center">
         <button

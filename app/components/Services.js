@@ -59,23 +59,23 @@ export default function Services() {
       className="flex flex-col items-center justify-center min-h-screen bg-gray-50"
     >
       {/* Title at the middle-top */}
-      <h2 className="text-4xl sm:text-2xl md:text-4xl font-semibold mb-16 ">
+      <h2 className="text-4xl sm:text-2xl md:text-4xl font-semibold">
         Services
       </h2>
 
       {/* Services grid */}
-      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-6xl px-8 py-16">
+      <div className="grid gap-x-14 gap-y-28 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-4/6 py-28">
         {services.map((service) => (
           <div
             key={service.id}
-            className="flex flex-col items-center text-center transition transform hover:scale-105"
+            className="flex flex-col items-center text-center group"
           >
             {/* Icon with glassy circular background */}
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white/30 backdrop-blur-lg hover:shadow-[0_0_15px_#eaff27] transition">
+            <div className="flex items-center justify-center w-20 h-20 mb-4 rounded-full bg-gray-300/30 backdrop-blur-lg group-hover:shadow-my-yellow-2 transition">
               <div className="text-black">{service.icon}</div>
             </div>
-            <h3 className="font-semibold text-lg mb-2">{service.title}</h3>
-            <p className="text-gray-600 text-sm px-4">{service.description}</p>
+            <h3 className="font-semibold text-xl mb-2">{service.title}</h3>
+            <p className="text-gray-600 text-lg px-4">{service.description}</p>
           </div>
         ))}
       </div>

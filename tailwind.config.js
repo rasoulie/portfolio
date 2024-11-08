@@ -16,7 +16,8 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       boxShadow: {
-        "my-yellow": "0px 0px 20px 1px rgba(234, 255, 39, 0.5)",
+        "my-yellow": "0px 0px 15px 1px rgba(234, 255, 39, 0.5)",
+        "my-yellow-2": "0px 0px 50px 10px rgba(234, 255, 39, 0.5)",
       },
     },
   },

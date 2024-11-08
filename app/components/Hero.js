@@ -2,7 +2,10 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col bg-dots-pattern items-center justify-center h-screen bg-gray-50 text-center px-4">
+    <section
+      id="Home"
+      className="flex flex-col bg-dots-pattern items-center justify-center h-screen bg-gray-50 text-center px-4"
+    >
       <div className="mt-10 w-4/6 md:w-4/6 lg:w-2/3 text-left">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-left mb-16 leading-snug sm:leading-normal md:leading-relaxed lg:leading-normal">
           Hi, I'm a Product Designer with a
