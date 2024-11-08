@@ -20,7 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` ${montserrat.className} antialiased text-gray-400`}>{children}</body>
+      <body
+        className={`flex ${montserrat.className} antialiased text-black w-auto`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
