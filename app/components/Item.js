@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function Item({ image, title, description }) {
   return (
     <div className="flex flex-col md:flex-row items-start md:space-x-8">
-      <div className="text-white text-left flex flex-col">
+      <div className="text-white text-left flex flex-col pb-8">
         <h2 className="mb-2 text-2xl font-semibold leading-loose">{title}</h2>
         <p className="leading-loose">{description}</p>
         <Button

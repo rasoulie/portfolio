@@ -56,7 +56,7 @@ export default function Services() {
   return (
     <section
       id="Services"
-      className="flex flex-col items-center justify-center min-h-screen bg-gray-50"
+      className="flex flex-col items-center justify-center min-h-screen bg-gray-50 pt-16"
     >
       {/* Title at the middle-top */}
       <h2 className="text-4xl sm:text-2xl md:text-4xl font-semibold">

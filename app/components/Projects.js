@@ -27,7 +27,7 @@ export default function Projects() {
   return (
     <section
       id="Projects"
-      className="flex flex-col items-center justify-center pt-16 pb-20 bg-black text-center px-4"
+      className="flex flex-col items-center justify-center pt-16 pb-20 bg-black text-center px-4 min-h-screen"
     >
       <div className="w-4/6 md:w-4/6 lg:w-2/3">
         <h2 className="text-white text-4xl sm:text-2xl md:text-4xl font-semibold mb-16">
