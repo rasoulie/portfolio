@@ -6,6 +6,7 @@ import Modal from "./components/Modal";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,8 +19,9 @@ export default function Home() {
         <Hero />
         <Projects />
         <Services />
-        <Contact/>
+        <Contact />
       </main>
+      <ScrollToTop />
     </>
   );
 }

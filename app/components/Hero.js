@@ -1,4 +1,5 @@
 import Button from "./Button";
+import SlidingButton from "./SlidingButton";
 // h1 text size : 
 export default function Hero() {
   return (

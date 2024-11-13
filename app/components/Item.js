@@ -13,7 +13,13 @@ export default function Item({ image, title, description }) {
           style="w-40 mt-5 text-center whitespace-nowrap text-base px-3 py-3 text-white border border-white bg-black rounded-full font-semibold hover:bg-gray-900 transition-colors duration-200 ease-in-out"
         />
       </div>
-      <Image src={image} height={400} width={400} alt={title} />
+      <Image
+        className=" rounded-lg grayscale hover:grayscale-0 transition duration-500 ease-in-out"
+        src={image}
+        height={400}
+        width={400}
+        alt={title}
+      />
     </div>
   );
 }
