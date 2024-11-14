@@ -1,6 +1,6 @@
 import Button from "./Button";
 import SlidingButton from "./SlidingButton";
-// h1 text size : 
+// h1 text size :
 export default function Hero() {
   return (
     <section
@@ -9,9 +9,9 @@ export default function Hero() {
     >
       <div className="mt-20 md:mt-10 sm:mt-20 w-4/6 md:w-5/6 lg:w-2/3 text-left">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl leading-snug sm:leading-normal md:leading-relaxed lg:leading-normal font-semibold text-left mb-8 lg:mb-16 sm:mb-8 md:mb-8">
-          Hi, I'm a Product Designer with a
-          <span className="hero-highlight"> *Holistic</span> Perspective on
-          Design & Development.
+          Hi, I'm a Product Designer with a{" "}
+          <span className="hero-highlight">Holistic</span> Perspective on Design
+          & Development.
         </h1>
         <div className="mt-4 flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
           <Button
