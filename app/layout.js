@@ -1,8 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
-const montserrat = Montserrat({
+const openSans = Open_Sans({
   subsets: ["latin"],
   display: "swap",
 });
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`flex ${montserrat.className} antialiased text-black w-auto`}
+        className={`flex ${openSans.className} antialiased text-black w-auto`}
       >
         {children}
       </body>

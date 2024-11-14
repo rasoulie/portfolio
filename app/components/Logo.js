@@ -14,7 +14,7 @@ export default function Logo() {
             alt="Avatar"
           />
         </div>
-        <h2 className="whitespace-nowrap font-semibold text-lg md:text-xl">
+        <h2 className="whitespace-nowrap tracking-wide font-semibold text-lg md:text-xl">
           Elham Rasouli
         </h2>
       </Link>
