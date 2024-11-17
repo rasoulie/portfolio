@@ -13,8 +13,8 @@ export default function Home() {
   const onToggleMenu = () => setIsMenuOpen((prev) => !prev);
   return (
     <>
-      <Header onToggleMenu={onToggleMenu} />
-      <Modal isMenuOpen={isMenuOpen} onToggleMenu={onToggleMenu} />
+      <Header onToggleMenu={onToggleMenu} basePath="" />
+      <Modal isMenuOpen={isMenuOpen} onToggleMenu={onToggleMenu} basePath="/" />
       <main>
         <Hero />
         <Projects />

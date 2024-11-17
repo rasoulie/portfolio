@@ -4,23 +4,26 @@ export default function Projects() {
     {
       id: 1,
       title: "Project title 1",
+      link: "/projects/project1",
       description:
         "Lorem ipsum dolor sit amet consectetur. Iaculis libero ac blandit cursus mauris velit vestibulum consectetur massa.",
-      image: "/images/project_03_class_dashboard_elham_rasouli.png", // Replace with the actual path to your image
+      image: "/images/project_03/project_03_cover.png",
     },
     {
       id: 2,
       title: "Project title 2",
+      link: "/projects/project2",
       description:
         "Lorem ipsum dolor sit amet consectetur. Iaculis libero ac blandit cursus mauris velit vestibulum consectetur massa.",
-      image: "/images/project_03_class_dashboard_elham_rasouli.png", // Replace with the actual path to your image
+      image: "/images/project_03/project_03_cover.png",
     },
     {
       id: 3,
-      title: "Project title 3",
+      title: "Teacher Dashboard: Tracking Students’ Progress",
+      link: "/projects/project3",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Iaculis libero ac blandit cursus mauris velit vestibulum consectetur massa.",
-      image: "/images/project_03_class_dashboard_elham_rasouli.png", // Replace with the actual path to your image
+        "Streamlining grading and feedback, improving productivity and enhancing the overall teaching experience.",
+      image: "/images/project_03/project_03_cover.png",
     },
   ];
 
@@ -39,6 +42,7 @@ export default function Projects() {
               key={project.id}
               image={project.image}
               title={project.title}
+              link={project.link}
               description={project.description}
             />
           ))}

@@ -7,6 +7,12 @@
   --foreground: #171717;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -29,9 +35,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-.hero-highlight {
+.hero-highlight,
+.hero-highlight strong {
   background: -webkit-linear-gradient(
     top,
     transparent 0%,
@@ -75,4 +84,10 @@ body {
 .responsive-heading {
   @apply font-semibold leading-tight sm:leading-normal md:leading-relaxed lg:leading-normal;
   font-size: calc(1.5rem + 1vh); /* Scales based on viewport height */
+}
+.text-green {
+  color: #00c259;
+}
+.image-large {
+  margin-top: 0;
 }

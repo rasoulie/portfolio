@@ -1,7 +1,15 @@
 import Link from "next/link";
 import { HiX } from "react-icons/hi";
 
-export default function Modal({ isMenuOpen, onToggleMenu }) {
+export default function Modal({ isMenuOpen, onToggleMenu, basePath = "" }) {
+  const links = [
+    { name: "Home", href: `${basePath}#Home` },
+    { name: "Projects", href: `${basePath}#Projects` },
+    { name: "Services", href: `${basePath}#Services` },
+    { name: "Resume", href: "https://drive.google.com/file/d/1repQZp3eY8QR3fymuf4GhG1of-BKgzQu/view?usp=sharing", external: true },
+    { name: "Contact", href: `${basePath}#Contact` },
+  ];
+
   return (
     <>
       {/* Mobile Slide-in Menu */}
@@ -14,42 +22,29 @@ export default function Modal({ isMenuOpen, onToggleMenu }) {
             <HiX />
           </button>
           <nav className="flex flex-col items-start mt-10 space-y-4">
-            <Link
-              href="/"
-              className="text-lg font-semibold hover:text-gray-300"
-              onClick={onToggleMenu}
-            >
-              Home
-            </Link>
-            <Link
-              href="#Projects"
-              className="text-lg font-semibold hover:text-gray-300"
-              onClick={onToggleMenu}
-            >
-              Projects
-            </Link>
-            <Link
-              href="#Services"
-              className="text-lg font-semibold hover:text-gray-300"
-              onClick={onToggleMenu}
-            >
-              Services
-            </Link>
-            <Link
-              href="https://drive.google.com/file/d/1repQZp3eY8QR3fymuf4GhG1of-BKgzQu/view?usp=sharing"
-              target="_blank"
-              className="text-lg font-semibold hover:text-gray-300"
-              onClick={onToggleMenu}
-            >
-              Resume
-            </Link>
-            <Link
-              href="#Contact"
-              className="text-lg font-semibold hover:text-gray-300"
-              onClick={onToggleMenu}
-            >
-              Contact
-            </Link>
+            {links.map((link) =>
+              link.external ? (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg font-semibold hover:text-gray-300"
+                  onClick={onToggleMenu}
+                >
+                  {link.name}
+                </a>
+              ) : (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="text-lg font-semibold hover:text-gray-300"
+                  onClick={onToggleMenu}
+                >
+                  {link.name}
+                </Link>
+              )
+            )}
           </nav>
         </div>
       )}
