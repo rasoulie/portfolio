@@ -18,7 +18,7 @@ export default function MarkdownParser({ content }) {
 
   return (
     <div
-      className="prose lg:prose-xl max-w-none prose-h4:mb-10 prose-h3:font-bold prose-h5:font-bold text-gray-800 prose-strong:font-bold hero-highlight"
+      className="prose lg:prose-xl max-w-none prose-h4:mb-10 prose-h3:font-bold prose-h5:font-bold text-gray-800 prose-strong:hero-highlight prose-strong:font-bold"
       dangerouslySetInnerHTML={{ __html: parsedContent }}
     />
   );

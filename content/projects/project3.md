@@ -49,12 +49,7 @@ I also designed the logo myself. It's a logotype meaning class.
 ### Final Design & Prototype
 
 ![Final Design Screenshot](/images/project_03/img_03.png)
-![Final Design Screenshot](/images/project_03/prototype.gif)
-
-<video width="600" controls>
-  <source src="path-to-final-design-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Final Design Prototype](/images/project_03/prototype.gif)
 
 ### How This Design Made a Difference
 
@@ -77,15 +72,15 @@ Overall, this design has greatly enhanced the teaching experience, improving eff
 ## There's always room for improvement!
 
 There were so many feature that could be integrated into this dashboard, but I decided to focus on user pain points.
-So, to evaluate the designed dashboard, Usability Testing was conducted with a group of instructors. Real-life scenarios of daily tasks for instructors were defined. Examples of the defined tasks include:
+So, to evaluate the designed dashboard, **Usability Testing** was conducted with a group of instructors. Real-life scenarios of daily tasks for instructors were defined. Examples of the defined tasks include:
 
-• Entering student grades into the system
+- Entering student grades into the system
 
-• Reviewing and recording student assignments
+- Reviewing and recording student assignments
 
-• Managing class schedules
+- Managing class schedules
 
-• Viewing students' academic status
+- Viewing students' academic status
 
 After the testing, the instructors' feedback on their experience using the dashboard was recorded.
 Here are 2 suggestions extracted from the feedback:

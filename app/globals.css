@@ -39,8 +39,7 @@ body {
   flex-direction: column;
 }
 
-.hero-highlight,
-.hero-highlight strong {
+.hero-highlight{
   background: -webkit-linear-gradient(
     top,
     transparent 0%,
