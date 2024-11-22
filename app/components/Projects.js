@@ -3,7 +3,7 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Project title 1",
+      title: "Improving Mobile Experience with a User-Centered Approach",
       link: "/projects/project1",
       description:
         "Lorem ipsum dolor sit amet consectetur. Iaculis libero ac blandit cursus mauris velit vestibulum consectetur massa.",
@@ -11,11 +11,11 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "Project title 2",
+      title: "Enhancing Assignment Feedback in Online Teaching Platform",
       link: "/projects/project2",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Iaculis libero ac blandit cursus mauris velit vestibulum consectetur massa.",
-      image: "/images/project_03/project_03_cover.png",
+        "Improving the assignment feedback process in an online teaching platform and enhancing user experience.",
+      image: "/images/project_02/project_02_cover.png",
     },
     {
       id: 3,

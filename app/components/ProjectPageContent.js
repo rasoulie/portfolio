@@ -7,21 +7,21 @@ export default function ProjectPageContent({
 }) {
   return (
     <>
-      <div className="flex flex-col bg-dots-pattern items-center justify-center text-gray-800  bg-gray-50 text-center px-4 pb-12 pt-24">
+      <div className="flex flex-col bg-dots-pattern items-center justify-center text-gray-800  bg-gray-50 text-center px-4  pt-24">
         <section className="mt-28 md:mt-10 sm:mt-20 w-4/6 md:w-5/6 lg:w-2/3 text-left">
           <h1 className="text-4xl font-bold text-center mb-12">{title}</h1>
 
           {/* Dynamic Key-Value Data */}
-          <div className="flex mb-8 justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             {Object.entries(metadata)
               .slice(1)
               .map(([key, value]) => (
                 <div
                   key={key}
-                  className="flex flex-col justify-center items-start relative pl-6"
+                  className="flex flex-col text-nowrap justify-center items-start relative pl-6 py-3 pr-20 shadow rounded-md mb-8 bg-white w-1/2"
                 >
                   {/* Add the vertical line */}
-                  <div className="absolute left-0 top-0 h-7 w-1 bg-gray-800 rounded-full"></div>
+                  <div className="absolute left-0 top-0 h-full w-1 bg-gray-800 rounded-full"></div>
 
                   {/* Content */}
                   <h3 className="font-bold capitalize mb-2">{key}</h3>
