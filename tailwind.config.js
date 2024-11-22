@@ -8,6 +8,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            strong: {
+              '@apply hero-highlight' : {},
+            },
+          },
+        },
+      },
       flex: {
         "1-0-0": "1 0 0px",
       },
