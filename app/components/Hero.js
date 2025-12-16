@@ -20,7 +20,7 @@ export default function Hero() {
             label="SEE PROJECTS"
           />
           <Button
-            href="https://drive.google.com/file/d/1repQZp3eY8QR3fymuf4GhG1of-BKgzQu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1QnlWfas1v6yHra6Q9weJQFlGDtrsRan6/view?usp=sharing"
             target="_blank"
             style="text-center whitespace-nowrap text-base sm:text-lg md:text-xl lg:text-xl px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 md:py-5 text-black border border-black bg-white rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200 ease-in-out"
             label="MORE ABOUT ME"

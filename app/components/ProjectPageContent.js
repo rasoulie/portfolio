@@ -9,7 +9,9 @@ export default function ProjectPageContent({
     <>
       <div className="flex flex-col bg-dots-pattern items-center justify-center text-gray-800  bg-gray-50 text-center px-4  pt-24">
         <section className="mt-28 md:mt-10 sm:mt-20 w-4/6 md:w-5/6 lg:w-2/3 text-left">
-          <h1 className="text-4xl font-bold text-center mb-12">{title}</h1>
+          <h1 className="leading-[4.5rem] text-4xl font-bold text-center mb-12">
+            {title}
+          </h1>
 
           {/* Dynamic Key-Value Data */}
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
@@ -33,7 +35,7 @@ export default function ProjectPageContent({
       </div>
 
       <div className="flex flex-col items-center justify-center min-h-screen  text-gray-800  bg-gray-50 text-center px-4 pb-24 mt-0 mb-0">
-        <section className="w-4/6 md:w-5/6 lg:w-2/3 text-left  mt-0 mb-0">
+        <section className="w-4/6 md:w-5/6  lg:w-2/3 text-left  mt-0 mb-0">
           {/* Render Markdown Content */}
           <div className="prose lg:prose-xl max-w-full">
             <MarkdownParser content={markdownContent} />

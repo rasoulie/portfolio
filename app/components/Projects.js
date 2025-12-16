@@ -3,15 +3,15 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Improving Mobile Experience with a User-Centered Approach",
+      title: "Gamified Telegram Mini-App for AI Training",
       link: "/projects/project1",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Iaculis libero ac blandit cursus mauris velit vestibulum consectetur massa.",
-      image: "/images/project_03/project_03_cover.png",
+        "Designing a Mini-App where users train an AI agent and unlock rewards through a character-driven interface.",
+      image: "/images/project_01/project_01_cover.png",
     },
     {
       id: 2,
-      title: "Enhancing Assignment Feedback in Online Teaching Platform",
+      title: "Enhancing Assignment Feedback",
       link: "/projects/project2",
       description:
         "Improving the assignment feedback process in an online teaching platform and enhancing user experience.",

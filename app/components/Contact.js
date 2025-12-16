@@ -3,6 +3,7 @@ import {
   FaLinkedin,
   FaBehance,
   FaTelegramPlane,
+  FaInstagram,
 } from "react-icons/fa";
 import Button from "./Button";
 
@@ -53,9 +54,16 @@ export default function Contact() {
           >
             <FaBehance className="w-8 h-8" />
           </a>
+          {/* Instagram Icon */}
+          <a
+            href="https://www.instagram.com/_elham.design_"
+            className="text-gray-400 hover:text-white"
+          >
+            <FaInstagram className="w-8 h-8" />
+          </a>
           {/* Telegram Icon */}
           <a
-            href="https://t.me/elhamrasoulii"
+            href="https://t.me/rasoulieee"
             className="text-gray-400 hover:text-white"
           >
             <FaTelegramPlane className="w-8 h-8" />

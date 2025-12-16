@@ -39,7 +39,7 @@ body {
   flex-direction: column;
 }
 
-.hero-highlight{
+.hero-highlight {
   background: -webkit-linear-gradient(
     top,
     transparent 0%,
@@ -89,4 +89,26 @@ body {
 }
 .image-large {
   margin-top: 0;
+}
+/*Slider*/
+
+.slider {
+  position: relative;
+  margin-top: 0;
+}
+.slider img {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.slider-track {
+  display: flex;
+  margin-top: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-image {
+  width: 100%; /* Ensure the image fills the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop to fill the container without distortion */
+  display: block; /* Avoid inline gap issues */
 }

@@ -12,7 +12,15 @@ module.exports = {
         DEFAULT: {
           css: {
             strong: {
-              '@apply hero-highlight' : {},
+              "@apply hero-highlight": {},
+            },
+            ".slider": {
+              marginTop: "0px",
+              marginBottom: "0px",
+            },
+            img: {
+              marginTop: "0", // Remove top margin for all images
+              marginBottom: "0", // Optional: remove bottom margin
             },
           },
         },

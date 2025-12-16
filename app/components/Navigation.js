@@ -47,7 +47,7 @@ export default function Navigation({ onToggleMenu , basePath }) {
     { name: "Services", href: `${basePath}#Services` },
     {
       name: "Resume",
-      href: "https://drive.google.com/file/d/1repQZp3eY8QR3fymuf4GhG1of-BKgzQu/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1QnlWfas1v6yHra6Q9weJQFlGDtrsRan6/view?usp=sharing",
     },
     { name: "Contact", href: `${basePath}#Contact` },
   ];

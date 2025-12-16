@@ -7,9 +7,9 @@ Tools: "Figma"
 
 <img class="image-large" src="/images/project_02/img_01.png" alt="Case Study: Enhancing Assignment Feedback in Online Learning Platform at ILI"/>
 
-<h4>Transforming Challenges into Solutions, One Feature at a Time.</h4>
+<b>Transforming Challenges into Solutions, One Feature at a Time.</b>
 
-As a former instructor at <b>Iran Language Institute</b>, I experienced firsthand the frustrations of the online teaching platform—tedious workflows, inefficient tools, and a lack of user-centric design. My colleagues often shared their struggles, especially with the assignment feedback system, and I realized how these pain points drove users away from the platform to alternatives like WhatsApp.
+As a former instructor at Iran Language Institute, I experienced firsthand the frustrations of the online teaching platform—tedious workflows, inefficient tools, and a lack of user-centric design. My colleagues often shared their struggles, especially with the assignment feedback system, and I realized how these pain points drove users away from the platform to alternatives like WhatsApp.
 
 Armed with this knowledge and a passion for design, I embarked on a mission to improve the **user experience** (UX) and **user retention** of the assignment section. This case study details my journey, using **design thinking**, to identify issues, ideate solutions, and create a more efficient feedback process.
 
@@ -59,13 +59,27 @@ Before ideating solutions, I conducted a **competitive analysis**, exploring sim
 3. **Sorting & Filtering**: To streamline task management for instructors.
 4. **Mobile Responsiveness**: Enhanced design for tablet and phone users.
 
+### Refined Color Palette
+
+To enhance accessibility and create a cohesive, inviting experience, I introduced a refined color palette adhering to WCAG standards. The colors were chosen to balance readability and aesthetics, improving the overall user experience:
+
+![Refined Color Palette](/images/project_02/color_palette_project_03.png)
+
+This palette was designed to ensure a professional and user-friendly interface while improving usability for individuals with visual impairments.
+
 ### Phase 4: Prototype
 
-I designed wireframes and interactive prototypes to test these features with real users.
+#### Designing Wireframes
 
-![Placeholder for Wireframe of Feedback Section]
+I began by designing low-fidelity wireframes to explore different layouts and interactions for the new features. These wireframes helped visualize workflows and identify potential usability issues early on. The focus was on ensuring the platform catered to various screen sizes for maximum flexibility.
 
-![Placeholder for Wireframe of Sorting/Filtering Tools]
+<div class="slider phase4-slider"></div>
+
+#### Prototyping
+
+Using Figma, I converted the wireframes into high-fidelity, interactive prototypes. This allowed for a realistic simulation of the user experience, enabling users to test and provide actionable feedback.
+
+![Prototype](/images/project_02/prototype.png)
 
 ### Phase 5: Test
 
@@ -85,8 +99,6 @@ Testing was conducted with five language instructors, aligning with best practic
 - **Sorting/Filtering**: Highly appreciated for simplifying task navigation.
 - **Mobile Responsiveness**: Made the platform intuitive across devices.
 
-### Reflection
-
 ### What Worked
 
 Instructors across different technical skill levels found the updates intuitive and time-saving. Feedback tools like voice feedback and emoji responses significantly reduced task completion times and added a layer of personalization.
@@ -99,7 +111,7 @@ During testing, participants noted the absence of annotation tools for assignmen
 
 The redesign resulted in a seamless and efficient feedback process, improved user satisfaction, and helped increase user retention. Instructors now feel empowered, not burdened, by the platform.
 
-- **[Placeholder for Before/After Screenshots of Feedback Section]**
+<div class="slider finaloutcome-slider"></div>
 
 ### A Human-Centered Design Approach
 
@@ -109,4 +121,4 @@ By deeply empathizing with instructors' needs, this redesign transformed the ass
 
 Adding annotation tools and conducting further tests to ensure continuous improvement.
 
-> _"Great design starts with listening. This project was about more than just tools—it was about giving instructors the time and space to focus on what matters most: teaching."_
+> _Great design starts with listening. This project was about more than just tools—it was about giving instructors the time and space to focus on what matters most: teaching._
